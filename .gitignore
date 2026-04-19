@@ -1,0 +1,30 @@
+# mkdocs documentation
+/site
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Local environment
+.env
+.envrc
+*venv/
+
+# Output of Go development/testing
+*.out
+*.test
+/reposcout
+
+# IDE
+.idea/
+.vscode/
+
+# Terraform
+**/.terraform**
+
+# Go workspaces
+go.work
+go.work.sum
